@@ -1,0 +1,10 @@
+.appHeader {
+  min-width: 360px;
+}
+h1.headerTitle {
+  flex-grow: 1;
+  font-family: 'Blackout Two AM' !important;
+  font-size: clamp(16pt, 6.4vw, 36pt);
+  margin-top: clamp(-24pt, -4vw, -16px);
+  white-space: nowrap;
+}

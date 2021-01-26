@@ -1,0 +1,17 @@
+.appFooter {
+  display: flex;
+  position: fixed;
+  background-color: rgb(48, 48, 48) !important;
+  top: auto !important;
+  bottom: 0 !important;
+  flex: 1;
+  color: whitesmoke;
+}
+
+.appFooter h6 {
+  line-height: 2.5;
+}
+
+.footerSpacer {
+  flex-grow: 1;
+}

@@ -1,0 +1,8 @@
+.appWrapper {
+  display: block;
+  height: 100%;
+  min-height: 100vh;
+}
+.headerTitle {
+  flex-grow: 1;
+}
