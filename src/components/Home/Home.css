@@ -1,0 +1,6 @@
+.appHome .homeTitle {
+    font-family: 'Blackout Two AM';
+    font-size: min(9.6vmin, 56px);
+    margin-top: 20px;
+    white-space: nowrap;
+}
