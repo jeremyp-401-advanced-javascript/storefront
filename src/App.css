@@ -1,0 +1,7 @@
+.appContainer {
+  background-color: rgb(206, 206, 206);
+  height: 100vh;
+}
+.headerTitle {
+  flex-grow: 1;
+}
