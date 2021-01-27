@@ -2,15 +2,18 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import './Products.css';
+import './SimpleCart.css';
 // Import Redux Store
 import { filterProductsByCategory, reset } from "../../store/products";
 import { addProductToCart, removeProductFromCart, resetCart } from "../../store/simplecart";
 
-function Products(props) {
+function SimpleCart(props) {
 
   return (
-    <Container className="appCategories">
+    // This should be a container for some text that can be displayed as a pop-down from
+    // the existing cart button. Maybe a card? Uses the SimpleCart 
+    // store for display, removing from cart (or resetting).
+    <Container className="appCart">
       <Typography variant="" align="center" component="h2" className="categoryTitle">
         {props.tabCategory}
         </Typography>
@@ -29,6 +32,6 @@ const mapStateToProps = state => ({
   cart: state.cart,
 });
 
-const mapDispatchToProps = { filterProductsByCategory, reset };
+const mapDispatchToProps = { addProductToCart, removeProductFromCart, resetCart, filterProductsByCategory, reset };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Products);
+export default connect(mapStateToProps, mapDispatchToProps)(SimpleCart);
