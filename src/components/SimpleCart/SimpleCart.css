@@ -1,0 +1,15 @@
+#appCart .cartTotal {
+  font-size: 200%;
+}
+#appCart .strong {
+  font-weight: bold;
+}
+
+#appCart h1.headerTitle {
+  flex-grow: 1;
+  font-family: 'Blackout Two AM' !important;
+  font-size: clamp(24pt, 6vw, 32pt);
+  margin-top: clamp(-20pt, -4vw, -16px);
+  margin-bottom: clamp(12pt,3.6vw, 16px);
+  white-space: nowrap;
+}

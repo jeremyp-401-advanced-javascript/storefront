@@ -62,10 +62,8 @@ const useStyles = makeStyles((theme) => ({
   },
   tabBody: {
     flexGrow: 1,
-    // width: '100%',
-    // height: '100%',
-    // minHeight: '75vh',
     backgroundColor: theme.palette.background.paper,
+    marginBottom: '50px',
   },
 }));
 
@@ -129,11 +127,11 @@ function Categories(props) {
           ))}
         </Tabs>
       </AppBar>
-      <TabPanel value={tabIndex} tabIndex={0} alignItems="stretch" className={classes.tabBody}>
+      <TabPanel value={tabIndex} tabIndex={0} alignitems="stretch" className={classes.tabBody}>
           <Home />
         </TabPanel>
       {props.categories.categories.map((category, idx) => (
-        <TabPanel key={idx + 1} value={tabIndex} tabIndex={idx + 1} alignItems="stretch" className={classes.tabBody}>
+        <TabPanel key={idx + 1} value={tabIndex} tabIndex={idx + 1} alignitems="stretch" className={classes.tabBody}>
           <Products 
             tabCategory={category.name}
           />

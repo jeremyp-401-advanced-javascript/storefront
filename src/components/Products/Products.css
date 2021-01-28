@@ -1,6 +1,7 @@
-.appCategories .categoryTitle {
+h2.categoryTitle {
   font-family: 'Blackout Two AM';
   font-size: clamp(32px, 5vw, 56px);
   margin-top: -20px;
   white-space: nowrap;
+  margin-bottom: 20px;
 }

@@ -12,8 +12,8 @@ function App() {
   return (
     <Container disableGutters={true}>
       <Paper elevation={10} className="appWrapper">
-        <Grid container direction="row" justify="space-evenly" alignItems="stretch">
-          <Grid container item xs={12}>
+        <Grid container direction="row" justify="space-evenly" alignitems="stretch">
+          <Grid container item xs={12} className="MuiAppBar-positionSticky" style={{ zIndex: 1100 }}>
             <Header />
           </Grid>
           <Grid container item xs={12}>
