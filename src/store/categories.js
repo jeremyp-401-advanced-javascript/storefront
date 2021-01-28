@@ -1,10 +1,20 @@
 let initialState = {
   categories: [
-    { name: 'electronics', displayName: 'Electronics', description: 'Electromechanigadgetal things to consume your <strike>soul</strike> time!' },
-    { name: 'food', displayName: 'Food', description: 'Food you should eat... before it eats you!' },
-    { name: 'clothing', displayName: 'Clothing', description: 'Mysitcal threads, guaranteed to make you irresistable!' },
+    { 
+      name: 'electronics', displayName: 'Electronics',
+      description: 'Electromechanigadgetal things to consume your time... and soul.',
+      imgsrc: './images/hard_drive.jpg'
+    },
+    { name: 'food', displayName: 'Food', 
+      description: 'Food you should eat... before it eats you!',
+      imgsrc: './images/oranges.jpg'
+    },
+    { name: 'clothing', displayName: 'Clothing', 
+      description: 'Mystical threads, guaranteed to make you irresistable!',
+      imgsrc: './images/glasses.jpg'
+    },
   ],
-  activeCategory: 'electronics',
+  activeCategory: '',
 };
 
 const categoryStore = (state = initialState, action) => {
