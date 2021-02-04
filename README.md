@@ -4,9 +4,7 @@
 
 ### **Author:** Jeremy Penning
 
-### Links and Resources
-
-- [Heroku Deployment](https://jeremyp-resty.herokuapp.com)
+### User Stories
 
 The following user/developer stories detail the major functionality for this project.
 
